@@ -1,0 +1,247 @@
+body{
+	margin: 0px;
+}
+.cntnr{
+	color: black;
+	font-family: Verdana, sans-serif;
+	width: 85%;
+	margin: auto;
+	line-height: 1.5em;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+.headnav{
+	text-decoration: none;
+	color: white;
+	font-size: 55px;
+	font-style: oblique;
+	font-family: Bookman, URW Bookman L, serif;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.headnav:hover{
+	text-decoration: none;
+	color: white;
+}
+
+.headnavcr{
+	text-decoration: none;
+	color: white;
+}
+
+.headnavcr:hover{
+	text-decoration: none;
+	color: white;
+}
+
+#nav{
+	width: 80%;
+	margin: auto;
+}
+
+#nav ul{
+	padding: 0;
+	list-style: none;
+}
+
+#nav li{
+	display: inline;
+}
+
+#nav a{
+	font-family: Arail, sans-serif;
+	text-decoration: none;
+	font-size: 25px;
+	padding-right: 10px;
+	color: white;
+	font-style: normal;
+}
+
+.button{
+	background-color: #4ABDAC;
+	padding: 10px 15px;
+	border: none;
+}
+
+.button a{
+	text-decoration: none;
+	color: black;
+}
+
+.button:hover{
+	background-color: #e05915;
+}
+
+.button a:hover{
+	color: white;
+}
+
+.h2heads{
+	font-size: 23px;
+	padding-top: 50px;
+}
+
+.extlink{
+	text-decoration: none;
+	color: #4ABDAC;
+}
+
+#seeall{
+	font-size: 22px;
+	float: right;
+	padding-right: 25px; 
+	color: black;
+}
+
+.extlink:hover{
+	color: #e05915;
+	text-decoration-line: underline;
+}
+
+.extlink:visited{
+	color: #e05915;
+}
+
+.upimg{
+	height: 400px;
+	width: 410px;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: background-color 0.8s;
+}
+
+.upimg:hover{
+	background-color: #e05915; 
+}
+
+.uppara{
+	padding: 10px 30px;
+	box-sizing: border-box;
+	text-align: left;
+	line-height: 1.6em;
+}
+
+.pic{
+	width: 33%;
+	float: left;
+}
+
+.uplink{
+	text-decoration: none;
+	color: black;
+}
+
+.uplink:hover{
+	color: #e05915;
+}
+
+.box{
+	position: relative;
+	display: inline-block;
+	width: 33%;
+	float: left;
+	min-height: 30px;
+	height: auto;
+}
+
+.box .text{
+	position: absolute;
+	z-index: 999;
+	margin: 0 5%;
+	left: 0;
+	right: 0;
+	top: 30%;
+	width: 35%;
+	font-size: 30px;
+	line-height: 35px;
+	color: white;
+	float: left;
+}
+
+.box .img-button{
+	position: absolute;
+	z-index: 999;
+	margin: 0 5%;
+	left: 0;
+	right: 0;
+	top: 85%;
+	width: 8%;
+}
+/*
+#img2-1{
+	width: 66%;
+}
+
+#img2-1{
+	width: 33%;
+}
+
+#img2-1{
+	width: 33%;
+}
+*/
+
+.dnpara{
+	float: left;
+	width: 31.7%;
+	padding: 35px 70px;
+	margin: 10px;
+	box-sizing: border-box;
+	background-color: #383838;
+	color: white;
+	line-height: 1.9em;
+	border: 4px #4ABDAC solid;
+}
+
+.dnpara:hover{
+	font-weight: bold;
+	line-height: 1.6em;
+}
+
+.link{
+	margin: 0;
+	color: black;
+}
+
+.link ul{
+	padding: 0;
+	list-style: none;
+	margin: 40px;
+	margin-bottom: 0px;
+	padding: 30px;
+}
+
+.link a{
+	font-family: Arail, sans-serif;
+	text-decoration: none;
+	font-size: 25px;
+	padding-right: 10px;
+	color: white;
+}
+
+.link a:hover{
+	color: #e05915;
+	text-decoration-line: underline;
+}
+
+.link a:active{
+	color: white;
+}
+
+.link a:visited{
+	color: #bf4aa8;
+	text-decoration-line: none;
+}
+
+#footer{
+	background-image: url("images/img navdn.png");
+	background-size: 1500px 300px;
+}
+
+#drpdn{
+	background-color: #bf4aa8;
+	margin: 2px 7px;
+	font-size: 16px;
+}
